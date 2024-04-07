@@ -126,11 +126,7 @@ class MatriculaController extends Controller
 
         return redirect('matricula');
     }
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
+    
     public function destroy(Matricula $matricula)
     {
         $dado = Matricula::findOrFail($id);
@@ -138,8 +134,8 @@ class MatriculaController extends Controller
         $dado->delete();
 
         return redirect('matricula');
+                 //criei o buscar 
     }
-//criei o buscar 
     public function search(Request $request)
     {
         if (!empty($request->pss)) {

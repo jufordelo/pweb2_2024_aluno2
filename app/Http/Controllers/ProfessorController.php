@@ -119,9 +119,7 @@ class ProfessorController extends Controller
 
         return redirect('professor');
     }
-    }
-
-
+    
     public function destroy(Professor $professor)
     {
         
@@ -145,4 +143,4 @@ class ProfessorController extends Controller
         } //dd($dados)
         return view("professor.list", ["dados" => $dados]);
     }
-}
+
