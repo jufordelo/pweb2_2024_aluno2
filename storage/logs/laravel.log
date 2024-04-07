@@ -2933,3 +2933,257 @@ Stack trace:
 #7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
 #8 {main}
 "} 
+[2024-04-07 20:46:06] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:46:08] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:46:08] production.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Auth\Access\Gate] is not instantiable. in C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php:1126
+Stack trace:
+#0 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(921): Illuminate\Container\Container->notInstantiable()
+#1 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(957): Illuminate\Container\Container->resolve()
+#3 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(942): Illuminate\Container\Container->make()
+#5 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(1454): Illuminate\Foundation\Application->make()
+#6 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(237): Illuminate\Container\Container->offsetGet()
+#7 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(349): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic()
+#10 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Auth\\Access\\Gate] is not instantiable. in C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1126
+Stack trace:
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(921): Illuminate\\Container\\Container->notInstantiable()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(957): Illuminate\\Container\\Container->resolve()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(942): Illuminate\\Container\\Container->make()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1454): Illuminate\\Foundation\\Application->make()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(237): Illuminate\\Container\\Container->offsetGet()
+#7 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(208): Illuminate\\Support\\Facades\\Facade::resolveFacadeInstance()
+#8 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(349): Illuminate\\Support\\Facades\\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#10 {main}
+  thrown at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-07 20:46:08] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:46:09] production.ERROR: Uncaught ReflectionException: Class "blade.compiler" does not exist in C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php:912
+Stack trace:
+#0 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(912): ReflectionClass->__construct()
+#1 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(957): Illuminate\Container\Container->resolve()
+#3 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(942): Illuminate\Container\Container->make()
+#5 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make()
+#6 Command line code(1): app()
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [blade.compiler] does not exist. in C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php:914
+Stack trace:
+#0 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build()
+#1 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(957): Illuminate\Container\Container->resolve()
+#2 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve()
+#3 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(942): Illuminate\Container\Container->make()
+#4 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"blade.compiler\" does not exist in C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:912
+Stack trace:
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(912): ReflectionClass->__construct()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(957): Illuminate\\Container\\Container->resolve()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(942): Illuminate\\Container\\Container->make()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make()
+#6 Command line code(1): app()
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [blade.compiler] does not exist. in C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914
+Stack trace:
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(957): Illuminate\\Container\\Container->resolve()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(942): Illuminate\\Container\\Container->make()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-07 20:46:59] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\laragon\\www\\pweb2_2024_aluno2\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:47:05] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:47:06] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:47:07] production.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Auth\Access\Gate] is not instantiable. in C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php:1126
+Stack trace:
+#0 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(921): Illuminate\Container\Container->notInstantiable()
+#1 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(957): Illuminate\Container\Container->resolve()
+#3 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(942): Illuminate\Container\Container->make()
+#5 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(1454): Illuminate\Foundation\Application->make()
+#6 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(237): Illuminate\Container\Container->offsetGet()
+#7 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(349): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic()
+#10 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Auth\\Access\\Gate] is not instantiable. in C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1126
+Stack trace:
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(921): Illuminate\\Container\\Container->notInstantiable()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(957): Illuminate\\Container\\Container->resolve()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(942): Illuminate\\Container\\Container->make()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1454): Illuminate\\Foundation\\Application->make()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(237): Illuminate\\Container\\Container->offsetGet()
+#7 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(208): Illuminate\\Support\\Facades\\Facade::resolveFacadeInstance()
+#8 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(349): Illuminate\\Support\\Facades\\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#10 {main}
+  thrown at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-07 20:47:29] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\laragon\\www\\pweb2_2024_aluno2\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:47:38] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\laragon\\www\\pweb2_2024_aluno2\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:48:06] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:48:08] production.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:206)
+[stacktrace]
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(765): Illuminate\\Foundation\\ProviderRepository->load()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2024-04-07 20:48:09] production.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Auth\Access\Gate] is not instantiable. in C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php:1126
+Stack trace:
+#0 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(921): Illuminate\Container\Container->notInstantiable()
+#1 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build()
+#2 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(957): Illuminate\Container\Container->resolve()
+#3 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(942): Illuminate\Container\Container->make()
+#5 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Container\Container.php(1454): Illuminate\Foundation\Application->make()
+#6 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(237): Illuminate\Container\Container->offsetGet()
+#7 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 C:\laragon\www\pweb2_2024_aluno2\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(349): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic()
+#10 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Auth\\Access\\Gate] is not instantiable. in C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1126
+Stack trace:
+#0 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(921): Illuminate\\Container\\Container->notInstantiable()
+#1 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build()
+#2 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(957): Illuminate\\Container\\Container->resolve()
+#3 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#4 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(942): Illuminate\\Container\\Container->make()
+#5 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1454): Illuminate\\Foundation\\Application->make()
+#6 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(237): Illuminate\\Container\\Container->offsetGet()
+#7 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(208): Illuminate\\Support\\Facades\\Facade::resolveFacadeInstance()
+#8 C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(349): Illuminate\\Support\\Facades\\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#10 {main}
+  thrown at C:\\laragon\\www\\pweb2_2024_aluno2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
