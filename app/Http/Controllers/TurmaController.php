@@ -128,7 +128,7 @@ class TurmaController extends Controller
      */
     public function destroy(Turma $turma)
     {
-        dado = Turma::findOrFail($id);
+        $dado = Turma::findOrFail($id);
         // dd($dado);
         $dado->delete();
         return redirect('turma');
