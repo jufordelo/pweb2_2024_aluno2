@@ -144,3 +144,4 @@ class ProfessorController extends Controller
         return view("professor.list", ["dados" => $dados]);
     }
 
+}
