@@ -127,7 +127,7 @@ class CursoController extends Controller
      */
     public function destroy(Curso $curso)
     {
-        dado = Curso::findOrFail($id);
+        $dado = Curso::findOrFail($id);
         // dd($dado);
         $dado->delete();
 
